@@ -1,0 +1,37 @@
+body {
+    background-color: #cccccc;
+    background-position: center;
+    margin-block: auto;
+    width: 90%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: auto;
+    padding-bottom: auto; 
+}
+    
+#goat {
+    width: 100%;
+    min-height: 47em;
+    
+
+    background-image: url("/image/muhammad_ali.png");
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: center;
+    padding: 0;
+    
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: #a81800 ;
+    font-family: Arial, Helvetica, sans-serif;
+     /* Create the parallax scrolling effect */
+     
+ }
+
+img {
+    display: flexbox;
+    margin: 200px 90px;
+  }
