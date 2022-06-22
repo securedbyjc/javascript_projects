@@ -10,7 +10,7 @@
 }
 // == is used to that a comparison should be made//
 function doubleeq_Function() {
-    var result = ([1,2,3] == [1,2,4]);
+    var result = [1,2,3] == [1,2,4];
     document.getElementById("Three").innerHTML = result;
 }
 // === tells the computer to check whether the two pieces of data are equal in value and TYPE.//
