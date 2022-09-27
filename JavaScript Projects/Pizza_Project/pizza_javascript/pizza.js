@@ -11,24 +11,23 @@ function getReceipt() {
             text1 = text1+selectedSize+"<br>";
         }
     }
-    if (selectedSize === "Personal") {
+    if (selectedSize === "Personal Pizza") {
         sizeTotal = 6;
-    } else if (selectedSize === "Small") {
+    } else if (selectedSize === "Small Pizza") {
         sizeTotal = 8; 
-    } else if (selectedSize === "Medium") {
+    } else if (selectedSize === "Medium Pizza") {
         sizeTotal = 10;
-    } else if (selectedSize === "Large") {
+    } else if (selectedSize === "Large Pizza") {
         sizeTotal = 14; 
-    } else if (selectedSize === "Extra Large") {
+    } else if (selectedSize === "Extra Large Pizza") {
         sizeTotal = 16;
     }
     runningTotal = sizeTotal;
     console.log(selectedSize+" = $"+sizeTotal+".00");
     console.log("size text1: "+text1);
     console.log("subtotal: $"+runningTotal+" .00");
-    //these variables will get passed on to each function
-    getTopping(runningTotal,text1);
-}
+    getTopping(runningTotal,text1);  //All of these variables will get passed on to each function
+};
 
 function getTopping(runningTotal,text1) {
     var toppingTotal = 0;
